@@ -1,0 +1,39 @@
+html, body {
+  background-color: rgb(57, 57, 57);
+}
+.seleccionarCantidad {
+  display: flex;
+  margin-top: 3em;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  padding: 2em;
+}
+form input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1.5em;
+}
+#cantidadPersonas {
+  width: 11em;
+  height: 2em;
+  text-align: center;
+}
+
+#seccionPersonas {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#datosPersonas,
+#listaPersonas {
+  margin: 5em;
+  margin-bottom: 2em;
+}
+
+
+/* Jorge Peñaranda */
