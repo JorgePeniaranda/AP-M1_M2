@@ -10,17 +10,26 @@ function contarDias() {
     var edad = anioactual - anioNacimiento;
     var anioContador = 0, dias = 0;
 
+
     for (let contador = 0; contador < edad; contador++) {
         anioContador = anioactual - contador;
 
         if (((Math.trunc(anioContador / 4)) * 4) == anioContador) {
-            dias = dias + 366
+            dias = dias + 366;
         }
         else {
-            dias = dias + 365
+            dias = dias + 365;
         }
     }
-    if (nombre == "") {
+    
+    var diasdeMas = Math.trunc((fechaActual.getTime() - fechaNacimiento.getTime())/86400000);
+    var diasdeMas = diasdeMas - dias; 
+    dias = dias + diasdeMas;
+
+    if (fechaNacimiento > fechaActual) {
+        alert("No naciste aun -.-");
+    }
+    else if (nombre == "") {
         alert("Su edad es de "+ edad +" años, y ha vivido " + dias + " días.");
     }
     else if (nombre != "") {
