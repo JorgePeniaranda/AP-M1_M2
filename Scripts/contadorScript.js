@@ -29,6 +29,9 @@ function contarDias() {
     if (fechaNacimiento > fechaActual) {
         alert("No naciste aun -.-");
     }
+    else if (document.getElementById("fechaNacimiento").value == "") {
+        alert("Ingrese una fecha para continuar");
+    }
     else if (nombre == "") {
         alert("Su edad es de "+ edad +" años, y ha vivido " + dias + " días.");
     }
