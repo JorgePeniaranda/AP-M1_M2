@@ -125,12 +125,7 @@ body {
 }
 @media (max-width: 375px) {
   html {
-    font-size: 12px;
-  }
-}
-@media (max-width: 320px) {
-  html {
-    font-size: 11px;
+    font-size: 14px;
   }
 }
 @media (min-width: 1024px) {

@@ -28,6 +28,42 @@ form input {
   height: 2em;
   text-align: center;
 }
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .Tarjetas {
+    margin-left: 0em;
+  }
+
+  .Tarjetas h2 {
+    text-align: center;
+  }
+
+  .Tarjetas__Contenido {
+    margin-right: 0;
+  }
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 2560px) {
+  html {
+    font-size: 34px;
+  }
+}
 
 
 /* Jorge Peñaranda */

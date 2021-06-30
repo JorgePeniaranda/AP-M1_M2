@@ -1,4 +1,4 @@
-html, body {
+html, .seleccionarCantidad, body {
   background-color: rgb(57, 57, 57);
 }
 .seleccionarCantidad {
@@ -33,6 +33,47 @@ form input {
 #listaPersonas {
   margin: 5em;
   margin-bottom: 2em;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .Tarjetas {
+    margin-left: 0em;
+  }
+
+  .Tarjetas h2 {
+    text-align: center;
+  }
+
+  .Tarjetas__Contenido {
+    margin-right: 0;
+  }
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 14px;
+  }
+  #seccionPersonas {
+    display: block;
+    justify-content: unset;
+    align-items: unset;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 2560px) {
+  html {
+    font-size: 34px;
+  }
 }
 
 

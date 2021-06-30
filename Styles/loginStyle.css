@@ -1,6 +1,3 @@
-* {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 ::-webkit-input-placeholder {
   color: rgb(213, 213, 213);
   font-size: 1.2em;
@@ -28,6 +25,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #SessionLog {
   display: flex;
@@ -72,7 +70,10 @@ form h2 {
   height: 2em;
   font-size: 1em;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
+  html {
+    font-size: 11px;
+  }
   .form1 {
     border-right: none;
   }
@@ -81,6 +82,26 @@ form h2 {
   }
   #SessionLog {
     display: block;
+  }
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 2560px) {
+  html {
+    font-size: 34px;
   }
 }
 

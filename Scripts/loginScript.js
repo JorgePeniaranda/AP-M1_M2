@@ -12,16 +12,15 @@ function Login() {
         alert("Ingrese la contraseña para continuar");
         return
     }
-    else if (Usuarios.indexOf(user) != -1) {
+    else if (Usuarios.indexOf(user) != -1 && pass == Contrasenias[Usuarios.indexOf(user)]) {
         alert(user + ", Se ha logueado correctamente!");
-        Usuarios.push(user)
-        Contrasenias.push(pass)
     }
     else if (Usuarios.indexOf(user) == -1) {
         alert("El usuario no existe");
     }
-    document.getElementById("UserLogin").value = "";
-    document.getElementById("PasswordLogin").value = "";
+    else if (pass != Contrasenias[Usuarios.indexOf(user)]){
+        alert("Contraseña Incorrecta");
+    }
 }
 
 function Register() {
