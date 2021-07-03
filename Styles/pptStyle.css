@@ -1,13 +1,13 @@
 html,
 body,
 section#Resultado {
-  background-color: #f4f4f4 !important;
+  background-color: #272727 !important;
 }
 section#PPT-Section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(#292929, #313131);
+  background-color: #303030;
 }
 section#PPT-Section button {
   width: 20em;
@@ -30,8 +30,12 @@ section#PPT-Section button img {
 #Resultado h1.Perdiste {
   color: red;
 }
+#Resultado h1 {
+  color: #f4f4f4;
+}
 #Resultado p {
   font-size: 20px;
+  color: #f4f4f4;
 }
 button {
   background: none;
