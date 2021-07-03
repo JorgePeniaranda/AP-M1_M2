@@ -1,5 +1,4 @@
 function PiedraPapelTijera() {
-    alert("¡Jugaras contra la Computadora un Piedra, Papel o Tijera!");
     sessionStorage.setItem('opUser', opUser);
     location.reload();
 }
