@@ -1,0 +1,70 @@
+html,
+body,
+section#Resultado {
+  background-color: #f4f4f4 !important;
+}
+section#PPT-Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#292929, #313131);
+}
+section#PPT-Section button {
+  width: 20em;
+  height: 20em;
+  margin: 7em;
+  padding: 2em;
+}
+section#PPT-Section button img {
+  width: 12em;
+  height: 12em;
+}
+#Resultado {
+  margin-top: 5em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+#Resultado h1.Ganaste {
+  color: green;
+}
+#Resultado h1.Perdiste {
+  color: red;
+}
+#Resultado p {
+  font-size: 20px;
+}
+button {
+  background: none;
+  border: none;
+}
+@media (max-width: 768px) {
+    html {
+      font-size: 11px;
+    }
+    section#PPT-Section {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(#292929, #313131);
+    }
+  }
+  @media (max-width: 375px) {
+    html {
+      font-size: 10px;
+    }
+  }
+  @media (min-width: 1024px) {
+    html {
+      font-size: 13px;
+    }
+  }
+  @media (min-width: 1440px) {
+    html {
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 2560px) {
+    html {
+      font-size: 30px;
+    }
+  }
